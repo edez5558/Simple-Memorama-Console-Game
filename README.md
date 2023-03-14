@@ -11,6 +11,7 @@ En la computación tolerante a fallos, el checkpointing se utiliza para minimiza
 ## Desarrollo
 
 Cuando el programa se abre, lo primero que hace es verificar si existe un archivo llamado "checkpoint.data". Si este archivo no existe, el programa crea uno nuevo. Si el archivo ya existe, el programa carga el estado del juego que se encuentra en el archivo.
+
 ![Crear](https://user-images.githubusercontent.com/122659695/224899421-e4f4fbbe-cf13-4231-90c1-5654e423f648.png)
 
 Estos son los dos mensajes que se muestran cuando se seleccionan dos posiciones.
